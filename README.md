@@ -16,9 +16,12 @@ Habría que establecer la conexión con las credenciales (password si estuviese 
 4. Sanear interpolaciones con la feature prepare de mysql2 para prevenir sql injection:
    https://sidorares.github.io/node-mysql2/docs/documentation/prepared-statements
 
-5. Ejemplo consumiendo la api desde un cliente construido en javascript vanilla
+5. Ejemplo consumiendo la api desde un cliente construido en javascript vanilla. Usando componentes de Bootstrap e iconos de Font Awesome:
+
+https://getbootstrap.com/
+https://fontawesome.com/
 
 6. Configurar puerto de express con process.env.PORT || PUERTOLOCAL para que PaaS puedan desplegar la aplicación en un puerto pasado por la variable PORT
-   https://docs.render.com/environment-variables#all-runtimes-1
+   [plataforma render](https://docs.render.com/environment-variables#all-runtimes-1)
 
    https://stackoverflow.com/questions/18864677/what-is-process-env-port-in-node-js
